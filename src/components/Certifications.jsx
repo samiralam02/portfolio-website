@@ -4,32 +4,36 @@
  */
 
 import CertificateCard from "./CertificateCard";
+import Cert1 from "../../public/images/aws-certified.png"
+import Cert2 from "../../public/images/responsive-webdesign.png"
+import Cert3 from "../../public/images/pythonprogramming.png"
+import Cert4 from "../../public/images/javascript-basics-cert.png"
 
 const certifications = [
     {
       id: 1,
-      imgSrc: '/public/images/aws-certified.png',
+      imgSrc: {Cert1},
       title: 'AWS Cloud Practitioner',
       tags: ['AWS', 'Cloud Computing'],
       certLink: 'https://www.credly.com/badges/8d9707d8-c358-4c10-8abc-3503146973f2/'
     },
     {
       id: 2,
-      imgSrc: '/public/images/responsive-webdesign.png',
+      imgSrc: {Cert2},
       title: 'Responsive Web-Design',
       tags: ['frontend', 'webdevelopment'],
       certLink: 'https://www.freecodecamp.org/certification/Samir_Alam/responsive-web-design'
     },
     {
       id: 3,
-      imgSrc: '/public/images/pythonprogramming.png',
+      imgSrc: {Cert3},
       title: 'Introduction To Python Programming',
       tags: ['coding', 'Python-basics'],
       certLink: 'https://app.dataquest.io/verify_cert/XY85T3SPMY58FGA4DKCJ/'
     },
     {
       id: 4,
-      imgSrc: '/public/images/javascript-basics-cert.png',
+      imgSrc: {Cert4},
       title: 'JavaScript Algorithms and Data Structures',
       tags: ['JavaScript', 'Programming'],
       certLink: 'https://www.hackerrank.com/certificates/f81388fb0dc6'

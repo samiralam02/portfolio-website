@@ -4,6 +4,7 @@
  */
 
 import React from 'react';
+import logo from "../../public/images/logo.svg"
 
 const aboutItems = [
     {
@@ -43,7 +44,7 @@ const About = () => {
                       }
 
                       <img 
-                      src="/public/images/logo.svg" 
+                      src={logo} 
                       alt="Logo"
                       width={30}
                       height={30}

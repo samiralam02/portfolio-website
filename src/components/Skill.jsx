@@ -3,53 +3,61 @@
  * @license Apache-2.0 
  */
 import SkillCard from "./SkillCard";
+import tailwindLogo from "../../public/images/tailwindcss.svg"
+import css3Logo from "../../public/images/css3.svg"
+import jsLogo from "../../public/images/javascript.svg"
+import nodeJsLogo from "../../public/images/nodejs.svg"
+import expressJsLogo from "../../public/images/expressjs.svg"
+import mongoDbLogo from "../../public/images/mongodb.svg"
+import reactJsLogo from "../../public/images/react.svg"
+import mySqlLogo from "../../public/images/mysqllogo.svg"
 
 const skillItem = [
     {
         id: 1,
-      imgSrc: '/public/images/tailwindcss.svg',
+      imgSrc: {tailwindLogo},
       label: 'TailwindCSS',
       desc: 'User Interface'
     },
     {
       id: 2,
-      imgSrc: '/public/images/css3.svg',
+      imgSrc: {css3Logo},
       label: 'CSS',
       desc: 'User Interface'
     },
     {
         id: 3,
-      imgSrc: '/public/images/javascript.svg',
+      imgSrc: {jsLogo},
       label: 'JavaScript',
       desc: 'Interaction'
     },
     {
         id: 4,
-      imgSrc: '/public/images/nodejs.svg',
+      imgSrc: {nodeJsLogo},
       label: 'NodeJS',
       desc: 'Web Server'
     },
     {
         id: 5,
-      imgSrc: '/public/images/expressjs.svg',
+      imgSrc: {expressJsLogo},
       label: 'ExpressJS',
       desc: 'Node Framework'
     },
     {
         id: 6,
-      imgSrc: '/public/images/mongodb.svg',
+      imgSrc: {mongoDbLogo},
       label: 'MongoDB',
       desc: 'Database'
     },
     {
       id: 7,
-      imgSrc: '/public/images/react.svg',
+      imgSrc: {reactJsLogo},
       label: 'React',
       desc: 'Framework'
     },
     {
         id: 8,
-      imgSrc: '/public/images/mysqllogo.svg',
+      imgSrc: {mySqlLogo},
       label: 'MySQL',
       desc: 'Database'
     }
