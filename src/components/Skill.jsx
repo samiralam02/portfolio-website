@@ -15,49 +15,49 @@ import mySqlLogo from "../../public/images/mysqllogo.svg"
 const skillItem = [
     {
         id: 1,
-      imgSrc: {tailwindLogo},
+      imgSrc: tailwindLogo,
       label: 'TailwindCSS',
       desc: 'User Interface'
     },
     {
       id: 2,
-      imgSrc: {css3Logo},
+      imgSrc: css3Logo,
       label: 'CSS',
       desc: 'User Interface'
     },
     {
         id: 3,
-      imgSrc: {jsLogo},
+      imgSrc: jsLogo,
       label: 'JavaScript',
       desc: 'Interaction'
     },
     {
         id: 4,
-      imgSrc: {nodeJsLogo},
+      imgSrc: nodeJsLogo,
       label: 'NodeJS',
       desc: 'Web Server'
     },
     {
         id: 5,
-      imgSrc: {expressJsLogo},
+      imgSrc: expressJsLogo,
       label: 'ExpressJS',
       desc: 'Node Framework'
     },
     {
         id: 6,
-      imgSrc: {mongoDbLogo},
+      imgSrc: mongoDbLogo,
       label: 'MongoDB',
       desc: 'Database'
     },
     {
       id: 7,
-      imgSrc: {reactJsLogo},
+      imgSrc: reactJsLogo,
       label: 'React',
       desc: 'Framework'
     },
     {
         id: 8,
-      imgSrc: {mySqlLogo},
+      imgSrc: mySqlLogo,
       label: 'MySQL',
       desc: 'Database'
     }
