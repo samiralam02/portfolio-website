@@ -5,6 +5,7 @@
 
 import { useState } from "react";
 import Navbar from "./Navbar";
+import logo from "../../public/images/logo.svg"
 
 const Header = () => {
   const [navOpen, setNavOpen] = useState(false);
@@ -22,7 +23,7 @@ const Header = () => {
         <h1>
           <a href="/" className="logo">
               <img
-                src="/images/logo.svg"
+                src={logo}
                 width={60}
                 height={40}
                 alt="Samir Alam"
